@@ -1,5 +1,6 @@
 #  IMPORTS .
-import requests,json
+import requests
+import json
 import hashlib
 import subprocess
 
@@ -107,10 +108,9 @@ class secury_key:
         data = {"registered": hashed_hwid}
         URL = f'{self.data_base}/auth-keys/{name}.json'
         
-        print(URL)
+
         r = requests.patch(url=URL,verify=True,json=data)
-        print(r)
-        print(r.text)
+
         
 
         
