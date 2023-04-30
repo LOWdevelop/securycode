@@ -5,9 +5,6 @@
 
 First Config your FireBase --> https://github.com/LOWdevelop/securycode/blob/main/FirebaseSettings.md
 
-Clone your Lib to your project https://github.com/LOWdevelop/securycode
-
-
 # pip install secury-code
     1. import secury_code   #Import lib
     
