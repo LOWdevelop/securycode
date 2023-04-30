@@ -25,3 +25,51 @@ to start you need one data-base , this lib use FireBase
   1.5 Finish You database Creation.
   
   ![image](https://user-images.githubusercontent.com/132000523/235350066-5468778c-a976-4399-8c4a-1bf4c0459f9c.png)
+
+  1.6 Change Rules to .
+	
+  
+	{ 
+	  "rules": {
+	 
+     "auth-keys": {
+		 
+       ".read": true,
+			 
+       "$user_id": {
+			 
+         "registered": {
+				 
+           ".write": true,
+					 
+           ".validate": "newData.isString() && newData.val().length > 5"
+					 
+        }
+     	 }
+     }
+	 }
+	}
+	
+
+
+      
+  EXAMPLE  --->
+  
+  ![image](https://user-images.githubusercontent.com/132000523/235368402-60f8982b-89ed-483d-b2e4-9b9bfc3c20f7.png)
+  ![image](https://user-images.githubusercontent.com/132000523/235368470-6d716187-9911-4c8e-97c0-55c53ce228a7.png)
+
+1.7 and use this template for create new user
+
+	
+		"auth-keys": {
+			"username": {
+				"key": "create-one-key-using-this-format",
+				"name": "username",
+				"registered": ""
+			  }
+		  }
+	
+	
+EXAMPLE --->
+
+![image](https://user-images.githubusercontent.com/132000523/235369125-1c83079e-ace1-435f-b0fd-e5038ed084e7.png)
