@@ -7,8 +7,7 @@ First Config your FireBase --> https://github.com/LOWdevelop/securycode/blob/mai
 
 Clone your Lib to your project https://github.com/LOWdevelop/securycode
 
-# Using Lib in your code
-    0. pip install secury-code
+# Using Lib in your code pip install secury-code
     1. import secury_code   #Import lib
     
 # Instance Class
