@@ -1,5 +1,6 @@
 # Welcom To SecuryCode
-
+# This is an open source lib, made exclusively to help you with your codes. consider giving an incentive for future improvements
+# https://donate.stripe.com/6oE6pPcZn7ov0FOaEH
     1. How to use Lib
 
 First Config your FireBase --> https://github.com/LOWdevelop/securycode/blob/main/FirebaseSettings.md
